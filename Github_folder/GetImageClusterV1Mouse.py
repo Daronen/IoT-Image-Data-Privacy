@@ -134,14 +134,14 @@ def getImageInfo(imag, prodcut):
     
 
 def main():
-    #path = r"C:\Users\lukez\PycharmProjects\CMSC499\Image Scrape\Images\chair\Amazon Basics Ergonomic Adjustable HighBack Mesh Chair with FlipUp Arms and Headrest Contoured Mesh Seat  Black"
+    #path = r""
     imageName = 'image3.png'
     #os.chdir(path)
     img = load_img(imageName)
 
     print(getImageInfo(img, 'chair'))
     
-    #path1 = r"C:\Users\lukez\PycharmProjects\CMSC499\Image Scrape"
+    #path1 = r""
     #os.chdir(path1)
     #with open ('pcaModel_chair.pkl', 'rb') as fp:
     #        pca_model = pickle.load(fp)
