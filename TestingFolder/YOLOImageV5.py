@@ -138,7 +138,7 @@ class ObjectDetection:
 
 def main():
     # Create a new object and execute.
-    #InputIMG = cv2.imread(r"C:\Users\lukez\PycharmProjects\CMSC499\Room.jpg")
+    #InputIMG = cv2.imread(r"")
     ImageName = 'Room' 
     extension = '.jpg'
     
